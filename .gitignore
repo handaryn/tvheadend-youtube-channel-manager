@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Local state & databases
+backend/config.json
+backend/channels_db.json
+channels_db.json
+*.download
+*.tmp
+
+# Secrets & environment
+.env
+.env.*
+cookies.txt
+*.cookie
+
+# OS & Archive files
+.DS_Store
+Thumbs.db
+*.zip
+*.tar.gz
+
+# Logs
+*.log

@@ -1,0 +1,12 @@
+{
+  "port": 9985,
+  "tvh_host": "http://localhost:9981",
+  "tvh_user": "YOUR_TVH_USERNAME",
+  "tvh_pass": "YOUR_TVH_PASSWORD",
+  "network_uuid": "YOUR_TVH_YOUTUBE_NETWORK_UUID",
+  "tag_uuid": "YOUR_TVH_YOUTUBE_TAG_UUID",
+  "picons_dir": "/home/tvheadend/picons",
+  "picons_tvh_url": "file:///config/picons",
+  "db_file": "channels_db.json",
+  "pipe_script_path": "/config/list/scripts/youtube.sh"
+}

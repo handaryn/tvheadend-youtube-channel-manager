@@ -1,0 +1,16 @@
+[Unit]
+Description=TVHeadend YouTube Channel Manager Service
+After=network.target tvheadend.service
+
+[Service]
+Type=simple
+# Replace 'tvheadend' with your desired system user
+User=tvheadend
+WorkingDirectory=/opt/tvheadend-youtube-channel-manager/backend
+ExecStart=/usr/bin/python3 /opt/tvheadend-youtube-channel-manager/backend/server.py
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
